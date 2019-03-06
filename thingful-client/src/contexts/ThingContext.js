@@ -10,7 +10,7 @@ const ThingContext = React.createContext({
   reviews: [],
   error: null,
   setError: () => {},
-  clearError: () => { },
+  clearError: () => {},
   setThing: () => {},
   clearThing: () => {},
   setReviews: () => {},

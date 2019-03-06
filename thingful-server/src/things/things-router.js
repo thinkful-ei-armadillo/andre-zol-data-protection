@@ -31,10 +31,10 @@ thingsRouter
       req.app.get('db'),
       req.params.thing_id
     )
-      .then(reviews => {
-        res.json(ThingsService.serializeThingReviews(reviews))
-      })
-      .catch(next)
+    .then(reviews => {
+      res.json(ThingsService.serializeThingReviews(reviews))
+    })
+    .catch(next)
   })
 
 /* async/await syntax for promises */
